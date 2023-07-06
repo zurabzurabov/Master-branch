@@ -1,0 +1,8 @@
+dist: bionic
+cache:
+  directories:
+  - /home/travis/kesz
+language: cpp
+script:
+- mkdir -p /home/travis/kesz
+- echo xx >> /home/travis/kesz/test
